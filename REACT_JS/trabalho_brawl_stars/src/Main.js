@@ -60,6 +60,13 @@ export default function Main() {
             "imagemUrlBrawler": "https://cdn.brawlify.com/brawler/Dynamike.png",
             "detalhesBrawler": "https://brawlify.com/brawlers/detail/Dynamike",
             "raridadeBrawler": "Super_Raro"
+        },
+        {
+            "brawlerId": 9,
+            "nomeBrawler": "Colt",
+            "imagemUrlBrawler": "https://cdn.brawlify.com/brawler/Colt.png",
+            "detalhesBrawler": "https://brawlify.com/brawlers/detail/Colt",
+            "raridadeBrawler": "Caminho_dos_Troféus"
         }
           
     
@@ -75,6 +82,15 @@ export default function Main() {
       return(
           <>
             <h1>Brawler's</h1>
+            <div className='fixo'>
+                <p className='legenda'>Raridade</p>
+                <div className='legenda Cromático'>Cromático</div>
+                <div className='legenda Épico'>Épico</div>
+                <div className='legenda Caminho_dos_Troféus'>Caminho dos Troféus</div>
+                <div className='legenda Raro'>Raro</div>
+                <div className='legenda Mistico'>Mistico</div>
+                <div className='legenda Super_Raro'>Super Raro</div>
+            </div>
             <article id='jogos'>
                 <div className='conteudo-jogos'>
                     <ul>

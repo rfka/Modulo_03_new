@@ -80,5 +80,51 @@ li {
 .Mistico{background-color: #fe5e72;}
 .Super_Raro{background-color: #5ab3ff;}
 
+.fixo {
+  position: fixed;
+  /* deixando o elemento na posição desejada */
+  left: 10px;
+  top: 200px;
+  /* apenas para aparência */
+  /* background-color: #fff; */
+  border: 6px solid #000;
+  width: 160px;
+  height: 210px;
+}
 
+.legenda{
+  padding-top: 5px;
+  height: 25px;
+  width:auto;
+  color: #fff;
+  text-align: center;
+}
 
+.legenda Cromático{
+
+}
+
+.legenda Épico{
+  height: 25px;
+  width:auto;
+}
+
+.legenda Caminho_dos_Troféus{
+  height: 25px;
+  width:auto;
+}
+
+.legenda Raro{
+  height: 25px;
+  width:auto;
+}
+
+.legenda Mistico{
+  height: 25px;
+  width:auto;
+}
+
+.legenda Super_Raro{
+  height: 25px;
+  width:auto;
+}
